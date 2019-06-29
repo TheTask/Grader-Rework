@@ -5,14 +5,14 @@
 - [ ] ( In progress ) Preparation 
 - [ ] Attempt rework
 - [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
-- [ ] Set up and test the anti-cheating code
+- [ ] ( Optional ) Set up and test the anti-cheating code
 
 ### Preparation
 - [x] Get access and obtain sample solutions and students' submissions from COMP204
 - [x] Download all the files and set up folder structure
 - [x] Research python graders
 - [x] Outline current pipeline
-- [ ] **Design new grading pipeline**
+- [ ] **( In Progress ) Design new grading pipeline**
 - [ ] Configure current grader to its best state
      - [ ] Set up raw_student information.csv
      - [ ] Set up reviewer_list.csv
@@ -46,7 +46,7 @@ output .txt file. This should remain unchanged, it should contain the .py files 
 
 
 
-### Pipeline Goals
+### Pipeline Goals / Rough outline
 * **init**: Sets up folder structure, should remain unchanged.
 * **compile/grade**: To be merged into 1 action while performing following steps:
      * Unzip the submissions
