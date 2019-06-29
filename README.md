@@ -19,7 +19,7 @@
      - [ ] Set up configuration.json
 
 
-### Current pipeline: Folder Structure
+### Current Pipeline: Folder Structure
 
 COMPXXX/AX contains configuration.json for the specific assignment and the following 5 folders:
 
@@ -42,7 +42,7 @@ output .txt file. This should remain unchanged, it should contain the .py files 
 
 
 
-### Pipeline Goals / Rough outline
+### Pipeline Goals / Rough Outline
 * **init**: Sets up folder structure, should remain unchanged.
 * **compile/grade**: To be merged into 1 action while performing following steps:
      * Unzip the submissions
