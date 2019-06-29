@@ -19,9 +19,7 @@
      - [ ] Set up configuration.json
 
 
-### Current pipeline
-
-##### Folder Structure
+### Current pipeline: Folder Structure
 
 COMPXXX/AX contains configuration.json for the specific assignment and the following 5 folders:
 
@@ -30,10 +28,8 @@ should contain master_grader.py
 * **outputs**: Contained a folder called _comments_ which contained all the .txt files to be uploaded to MyCourses with grade,
 compilation log/output, test cases, name of the TA who looked at it and so on. This should stay the same, provided that
 the output should now be captured from the master_grader.py
-
 It also contains _emails_with_zero_grade.txt_ file with the student emails who failed the compilation. ?It should now contain 
 the emails of students whose python files were misnamed? Ask Giulia.
-
 The folder also contained other files that we don't care about.
 
 * **processed_data**: Had 1 folder for each student with the name being the student's McGill ID. In the folder there were all
