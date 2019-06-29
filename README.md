@@ -2,7 +2,7 @@
 
 
 ### Project Goals
-- [ ] Preparation ( in progress )
+- [ ] ( In progress ) Preparation 
 - [ ] Attempt rework
 - [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
 - [ ] Set up and test the anti-cheating code
@@ -55,6 +55,6 @@ output .txt file. This should remain unchanged, it should contain the .py files 
           * ( Optional ) Update emails_with_zero_grade.txt
      * Run the master_grader.py 
      * Capture the output and create the .txt files
-# **distribute/merge**: Should remain unchanged.
+* **distribute/merge**: Should remain unchanged.
      
      
