@@ -2,7 +2,7 @@
 
 
 ### Project Goals
-- [ ] ( In progress ) Preparation 
+- [x] ( Done ) Preparation 
 - [ ] Attempt rework
 - [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
 - [ ] ( Optional ) Set up and test the anti-cheating code
@@ -12,11 +12,11 @@
 - [x] Download all the files and set up folder structure
 - [x] Research python graders
 - [x] Outline current pipeline
-- [ ] **( In Progress ) Design new grading pipeline**
-- [ ] Configure current grader to its best state
-     - [ ] Set up raw_student information.csv
-     - [ ] Set up reviewer_list.csv
-     - [ ] Set up configuration.json
+- [x] **Design new grading pipeline**
+- [x] Configure current grader to its best state
+     - [x] Set up raw_student information.csv
+     - [x] Set up reviewer_list.csv
+     - [x] Set up configuration.json
 
 
 ### Current Pipeline: Folder Structure
@@ -52,5 +52,8 @@ output .txt file. This should remain unchanged, it should contain the .py files 
      * Run the master_grader.py 
      * Capture the output and create the .txt files
 * **distribute/merge**: Should remain unchanged.
+
+### Update after first week:
+All the preparation is done, starting to attempt the rework next week.
      
      
