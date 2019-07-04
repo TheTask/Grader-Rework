@@ -2,8 +2,8 @@
 
 
 ### Project Goals
-- [x] ( Done ) Preparation 
-- [ ] Attempt rework
+- [x] Preparation 
+- [ ] ( In Progress ) Attempt rework
 - [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
 - [ ] ( Optional ) Set up and test the anti-cheating code
 
@@ -28,8 +28,7 @@ should contain master_grader.py
 * **outputs**: Contained a folder called _comments_ which contained all the .txt files to be uploaded to MyCourses with grade,
 compilation log/output, test cases, name of the TA who looked at it and so on. This should stay the same, provided that
 the output should now be captured from the master_grader.py
-It also contains _emails_with_zero_grade.txt_ file with the student emails who failed the compilation. ?It should now contain 
-the emails of students whose python files were misnamed? Ask Giulia.
+It also contains _emails_with_zero_grade.txt_ file with the student emails who failed the compilation. Now we won't do anything.
 The folder also contained other files that we don't care about.
 
 * **processed_data**: Had 1 folder for each student with the name being the student's McGill ID. In the folder there were all
@@ -48,7 +47,7 @@ output .txt file. This should remain unchanged, it should contain the .py files 
      * Unzip the submissions
      * Move them into folders with Student ID
      * Perform filename check
-          * ( Optional ) Update emails_with_zero_grade.txt
+          * ( Optional ) Update emails_with_zero_grade.txt - most like this step will be skipped
      * Run the master_grader.py 
      * Capture the output and create the .txt files
 * **distribute/merge**: Should remain unchanged.
