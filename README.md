@@ -54,5 +54,10 @@ output .txt file. This should remain unchanged, it should contain the .py files 
 
 ### Update after first week:
 All the preparation is done, starting to attempt the rework next week.
+
+### Update after 2nd week:
+* I realized I needed a python IDE to manage all the files, it is going to be simpler than running everything from the console, so I had to install PyCharm ( Used it before )
+* I wrote a grader for COMP204 Assignment 1 
+* I started debugging the grader to see what needs to change and where
      
      
