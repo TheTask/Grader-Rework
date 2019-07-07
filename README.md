@@ -58,6 +58,11 @@ All the preparation is done, starting to attempt the rework next week.
 ### Update after 2nd week:
 * I realized I needed a python IDE to manage all the files, it is going to be simpler than running everything from the console, so I had to install PyCharm ( Used it before )
 * I wrote a grader for COMP204 Assignment 1 
+     * This took a long time since 
+          * a) I am relearning python pretty much from scratch
+          * b) The biggest issue was the same one I was facing with Java when students were asked to use STDIN, since
+          COMP204 A1 solely relies on input() method as input instead of writing functions. I googled far and wide to
+          figure out how to flush the STDIN with the text I want, but I figured it out
 * I started debugging the grader to see what needs to change and where
      
      
