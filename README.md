@@ -63,6 +63,8 @@ All the preparation is done, starting to attempt the rework next week.
           * b) The biggest issue was the same one I was facing with Java when students were asked to use STDIN, since
           COMP204 A1 solely relies on input() method as input instead of writing functions. I googled far and wide to
           figure out how to flush the STDIN with the text I want, but I figured it out
+          * c) The second biggest issue was capturing STDOUT from the file and storing it as a string so standard
+          String operations can be performed for correct output checking, but I solved that
 * I started debugging the grader to see what needs to change and where
      
      
