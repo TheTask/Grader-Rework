@@ -57,7 +57,7 @@ All the preparation is done, starting to attempt the rework next week.
 
 ### Update after 2nd week:
 * I realized I needed a python IDE to manage all the files, it is going to be simpler than running everything from the console, so I had to install PyCharm ( Used it before )
-* I wrote a grader for COMP204 Assignment 1 
+* I finished writing a grader for COMP204 Assignment 1 
      * This took a long time since 
           * a) I am relearning python pretty much from scratch and I had to google syntax pretty much all the time
           * b) The biggest issue was the same one I was facing with Java when students were asked to use STDIN, since
@@ -65,6 +65,6 @@ All the preparation is done, starting to attempt the rework next week.
           figure out how to flush the STDIN with the text I want, but I figured it out
           * c) The second biggest issue was capturing STDOUT from the file and storing it as a string so standard
           String operations can be performed for correct output checking, but I solved that
-* I started debugging the grader to see what needs to change and where
+* I started debugging the grader to see what needs to change and where. 
      
      
