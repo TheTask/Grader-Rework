@@ -3,7 +3,7 @@
 
 ### Project Goals
 - [x] Preparation 
-- [ ] ( In Progress ) Attempt rework
+- [x] Attempt rework
 - [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
 - [ ] ( Optional ) Set up and test the anti-cheating code
 
@@ -52,6 +52,9 @@ output .txt file. This should remain unchanged, it should contain the .py files 
      * Capture the output and create the .txt files
 * **distribute/merge**: Should remain unchanged.
 
+### Rework
+The grader has been rewritten for MacOS.
+
 ### Update after first week:
 All the preparation is done, starting to attempt the rework next week.
 
@@ -66,5 +69,13 @@ All the preparation is done, starting to attempt the rework next week.
           * c) The second biggest issue was capturing STDOUT from the file and storing it as a string so standard
           String operations can be performed for correct output checking, but I solved that
 * I started debugging the grader to see what needs to change and where. 
+
+### Update after 3rd week:
+* I rewrote the main part of the grader
+* Notable difficulties I changed / reworked:
+     * The biggest problem was organizing directories. With java, you can specify directories to search for files it expects and as far as I am aware you cannot do it with python. I tried a lot of things, I finally settled in copying the grader file into the directory with students' submissions, running the file there and then deleting it after the output text file was produced. It is not the ideal solution, but it works and the pipeline should remain technically uneffected.
+* It currently only works on MacOS
+* I altered init.py file so the configuration.json gets created with added entries
+* **More testing still needs to be done with regards of errors, missing files, misnamed files and exceptions**
      
      
