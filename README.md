@@ -4,7 +4,7 @@
 ### Project Goals
 - [x] Preparation 
 - [x] Attempt rework
-- [ ] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
+- [x] Test the rewored grader on at least 2 assignments, as full master_grader has to be written
 - [ ] ( Optional ) Set up and test the anti-cheating code
 
 ### Preparation
@@ -78,4 +78,14 @@ All the preparation is done, starting to attempt the rework next week.
 * I altered init.py file so the configuration.json gets created with added entries
 * **More testing still needs to be done with regards of errors, missing files, misnamed files and exceptions**
      
+### Update after 4th week:
+* I wrote a grader for COMP204 A2
+* I downloaded a few assignments, renamed them correctly and rezipped them so the grader can work with it
+* I fixed 2 bugs regarding the json file and in the grader itself that would not let using different modules
+* I comprehensively tested that the grader works as expected ( as before )
+
+
+### Plan for week 5:
+* Go to Trottier to test it on windows and linux
+* Start implementing the anti-cheat software
      
